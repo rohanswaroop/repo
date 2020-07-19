@@ -11,8 +11,8 @@ body {
 #body-header {
     height: 65vh;
     opacity: 0.8;
-    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
-    background-size: cover;
+    background-image: url(https://www.valuecoders.com/blog/wp-content/uploads/2018/10/how-python-is-best-fit-for-artificial-intelligence-in-web-development-1.jpg);
+    
     background-position: center;
     background-attachment: fixed;
     padding-top: 1.2rem;
@@ -32,7 +32,7 @@ body {
     display: inline-block;
     margin: 0px 8px 8px 0px;
     font-weight: 100;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
 }
 
 .horizontal-list li a {
@@ -91,7 +91,7 @@ section {
 }
 
 section:nth-child(2n) {
-    background-color: #9e9b9b29;
+    background-color: #e5f9fa;
 }
 
 section:nth-child(2n + 1) {
@@ -231,11 +231,12 @@ section:nth-child(2n + 1) {
 .timeline-logo {
     position: absolute;
     width: 50px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
-.timeline-logo > img {
-    width: 100%;
+.timeline-logo img {
+    width: 90px;
+    height:85px;
 }
 
 #timeline-divider {
@@ -343,7 +344,7 @@ section:nth-child(2n + 1) {
 
 #contact {
     background-color: #0abcf9;
-    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    background-image: linear-gradient(50deg,rgb(13, 205, 220) 0%, rgb(47, 139, 146) 74%);
     color: white;
     padding-bottom: 40px;
 }
